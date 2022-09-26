@@ -12,7 +12,9 @@ let dictionary = [
 //a haystack?).
 //Return true when you find it, and false if you do not.
 function linearSearch(needle, haystack){
-    
+     for (needle = 0; needle < haystack.length; needle++)
+     if (haystack[needle])
+     
 }
 
 console.log("Does it contain cat? ", linearSearch("cat", dictionary));
